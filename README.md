@@ -20,12 +20,12 @@ Consider that for simplicity, some parts of the above sources have been altered,
 
 - **Master Branch**: This contains the project code (running version). Only the maintainers of each service are allowed to push to this branch. Remember to use bump-version for proper versioning, which is useful in many areas like sentry, staging, etc.
 
-  - **Hotfix Branch**: Assume Hadi and Nima are working on specified features when the project manager suddenly notices an issue in the running project (which is naturally on the master branch) and wants it resolved quickly. Thus, they tell another developer to fix it promptly.
+  - **Hotfix Branch**: Assume Mehrdad and Mohammad are working on specified features when the project manager suddenly notices an issue in the running project (which is naturally on the master branch) and wants it resolved quickly. Thus, they tell another developer to fix it promptly.
 
 
 - **Development Branch**: Work on the project begins here. Developers can merge requests for maintainers to review and merge into development. Every merge updates the project staging.
-  - **Feature Branch**: Suppose Nima is to work on login, and Hadi on home. They can each have their branches, such as feature/login and feature/home. When their work is done, these branches are merged into development and, if necessary, later into master.
-  - **Hotfix branches**: are created without interfering with features, taken from master or development to fix the issue, and then merged back into master. Hadi and Nima continue their work without any issues.
+  - **Feature Branch**: Suppose Mohammad is to work on login, and Mehrdad on home. They can each have their branches, such as feature/login and feature/home. When their work is done, these branches are merged into development and, if necessary, later into master.
+  - **Hotfix branches**: are created without interfering with features, taken from master or development to fix the issue, and then merged back into master. Mehrdad and Mohammad continue their work without any issues.
 
 
 ```
