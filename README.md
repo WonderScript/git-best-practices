@@ -1,6 +1,6 @@
+![Build Status](https://git-scm.com/images/logo@2x.png)
 # Git Best Practices
 
-![Build Status](https://git-scm.com/images/logo@2x.png)
 
 
 This document aims to provide a standard for writing, versioning, and applying changes in Git.
@@ -52,7 +52,7 @@ This section introduces a standard for writing commit messages based on the conv
 
 For examples, see [Conventional Commits].
 
-## Commit
+## Commits
 
 #### Purpose of Standardization                
 1. Using tools to automatically generate a CHANGELOG.md file.
