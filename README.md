@@ -39,8 +39,8 @@ Apply changes on master using merge requests. If you are a project maintainer an
 
 ```
 git checkout master
-git merge --no-ff hotfix/postgres
-git branch -d hotfix/postgres
+git merge --no-ff hotfix/login
+git branch -d hotfix/login
 git push origin master
 ```
 
