@@ -92,7 +92,7 @@ For examples, see [Conventional Commits].
 - **Footer (optional)**: Includes references such as issue numbers closed by the commit or Trello cards.
 
 ```
-feat(2FA): Add two factor authentication
+feat(menu): Add menu to home page
 
 Add new menus to improve navigation. These new menus are intended to improve the user experience. Implement URL handling in the  function to differentiate between local and external redirects. Additionally.
 
