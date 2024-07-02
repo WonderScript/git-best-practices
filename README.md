@@ -7,7 +7,8 @@ This document aims to provide a standard for writing, versioning, and applying c
 
 The following sections will cover branching, writing proper comments on changes, presenting them correctly with merge requests, and proper versioning.
 
-Branches
+## Branches
+
 This section provides a summary of Gitflow. For more details:
 
 
@@ -51,9 +52,9 @@ This section introduces a standard for writing commit messages based on the conv
 
 For examples, see [Conventional Commits].
 
+## Commit
 
-#### Purpose of Standardization
-                
+#### Purpose of Standardization                
 1. Using tools to automatically generate a CHANGELOG.md file.
 2. Readability of Git history.
 3. Enabling easier navigation through Git history to find specific changes.
