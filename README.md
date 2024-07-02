@@ -52,13 +52,13 @@ This section introduces a standard for writing commit messages based on the conv
 For examples, see [Conventional Commits].
 
 
-####Purpose of Standardization
+#### Purpose of Standardization
                 
 1. Using tools to automatically generate a CHANGELOG.md file.
 2. Readability of Git history.
 3. Enabling easier navigation through Git history to find specific changes.
 
-###Standard to Follow
+### Standard to Follow
 
 ```
 <type>(<scope>): <subject>
@@ -68,7 +68,7 @@ For examples, see [Conventional Commits].
 <footer>
 ```
 
-###Definitions
+### Definitions
 
 - **Scope (optional)**: The area where changes occur, such as file name, package name, API name, algorithm name, or any other name understandable to an external developer.
 
@@ -98,7 +98,7 @@ Add new menus to improve navigation. These new menus are intended to improve the
 Closes #32
 ```
 
-###Tools
+### Tools
 
 - **Node.js**: Commitizen, Commitlint
 
