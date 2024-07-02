@@ -9,6 +9,8 @@ requests, and proper versioning.
 
 ## Branches
 
+![img.png](img.png)
+
 This section provides a summary of Gitflow. For more details:
 
 - [Gitflow Introduction by DataSift]
