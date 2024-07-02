@@ -52,6 +52,69 @@ This section introduces a standard for writing commit messages based on the conv
 For examples, see [Conventional Commits].
 
 
+####Purpose of Standardization
+                
+1. Using tools to automatically generate a CHANGELOG.md file.
+2. Readability of Git history.
+3. Enabling easier navigation through Git history to find specific changes.
+
+###Standard to Follow
+
+```
+<type>(<scope>): <subject>
+# blank line
+<body>
+# blank line
+<footer>
+```
+
+###Definitions
+
+- **Scope (optional)**: The area where changes occur, such as file name, package name, API name, algorithm name, or any other name understandable to an external developer.
+
+- **Type (mandatory)**: The type of commit made, including:
+  - feat (feature)
+  - fix
+  - docs
+  - refactor
+  - style (changes that do not affect the code meaning, e.g., spacing)
+  - chore (specific message to show routine tasks or maintenance)
+  - perf (changes positively affecting program speed)
+  - ci (Cindicate the continuous integration (CI) system-related changes)
+  - build (changes related to the build process)
+  - revert (changes related to revert a previous commit)
+
+- **Subject (mandatory)**: A brief explanation of the work done in one line, maximum 50 characters, imperative, and capitalized without a period at the end.
+
+- **Body (optional)**:  Separated by a blank line from the subject, each line should be no more than 72 characters, imperative, present tense, answering "why," "how," and "where," possibly referencing other commits.
+
+- **Footer (optional)**: Includes references such as issue numbers closed by the commit or Trello cards.
+
+```
+feat(2FA): Add two factor authentication
+
+Add new menus to improve navigation. These new menus are intended to improve the user experience. Implement URL handling in the  function to differentiate between local and external redirects. Additionally.
+
+Closes #32
+```
+
+###Tools
+
+- **Node.js**: Commitizen, Commitlint
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
