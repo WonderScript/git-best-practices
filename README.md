@@ -7,6 +7,25 @@ This document aims to provide a standard for writing, versioning, and applying c
 The following sections will cover branching, writing proper comments on changes, presenting them correctly with merge
 requests, and proper versioning.
 
+## Table of Contents
+
+ - [Branches](#branches)
+
+ - [Commits](#commits)
+
+     - [Purpose of Standardization](#purpose-of-standardization)
+
+   - [Standard to Follow](#standard-to-follow)
+
+   - [Definitions](#definitions)
+
+ - [Merge Requests](#merge-requests)
+
+ - [Versioning](#versioning)
+
+ - [Summary](#summary)
+
+
 ## Branches
 
 ![img.png](img.png)
@@ -138,7 +157,7 @@ There are two ways to apply changes:
 
 **Semantic Versioning Standard**
 
-## Summary:
+## Summary
 
 Versions should be in the format major.minor.patch:
 
