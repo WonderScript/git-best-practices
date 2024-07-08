@@ -114,40 +114,39 @@ Add new menus to improve navigation. These new menus are intended to improve the
 Closes #32
 ```
 
-### Merge Requests
+## Merge Requests
 
 There are two ways to apply changes:
 
-1. If you are the maintainer, you can directly apply changes to master using the correct format and commit message, possibly copying one from your branch.
+1. If you are the maintainer, you can directly apply changes to master using the correct format and commit message,
+   possibly copying one from your branch.
 2. Create a merge request and send it to the project maintainer:
     - Correctly set the title as **type(scope): subject**.
     - Write a few lines as the body.
     - Correctly assign the project maintainer.
     - Check the box to delete the source branch when merging, whether feature or hotfix.
-    - Decide whether to squash commits when the merge request is accepted, especially if changes belong to a specific scope and type.
+    - Decide whether to squash commits when the merge request is accepted, especially if changes belong to a specific
+      scope and type.
 
-### Versioning
+## Versioning
 
 **Benefits of Versioning**
+
 - Preventing dependency hell.
 - Other developers can understand changes in the code by looking at the version.
 - Simplifies the mechanism for introducing new features and upgrading systems or libraries.
 
 **Semantic Versioning Standard**
-##### Summary:
+
+## Summary:
+
 Versions should be in the format major.minor.patch:
+
 1. Increase *major* for backward-incompatible API changes.
 2. Increase *minor* for backward-compatible new features.
 3. Increase *patch* for bug fixes (no new features or changes).
 
-
-
-
-
-
-
 There are two ways to apply changes:
-
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO -)
