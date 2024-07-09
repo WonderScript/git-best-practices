@@ -21,11 +21,6 @@ requests, and proper versioning.
 
  - [Merge Requests](#merge-requests)
 
- - [Versioning](#versioning)
-
- - [Summary](#summary)
-
-
 ## Branches
 
 ![img.png](images/gitflow.png)
@@ -147,23 +142,7 @@ There are two ways to apply changes:
     - Decide whether to squash commits when the merge request is accepted, especially if changes belong to a specific
       scope and type.
 
-## Versioning
-
-**Benefits of Versioning**
-
-- Preventing dependency hell.
-- Other developers can understand changes in the code by looking at the version.
-- Simplifies the mechanism for introducing new features and upgrading systems or libraries.
-
-**Semantic Versioning Standard**
-
-## Summary
-
-Versions should be in the format major.minor.patch:
-
-1. Increase *major* for backward-incompatible API changes.
-2. Increase *minor* for backward-compatible new features.
-3. Increase *patch* for bug fixes (no new features or changes).
+?
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO -)
