@@ -1,4 +1,4 @@
-![Build Status](https://git-scm.com/images/logo@2x.png)
+![Build Status](images/git.png)
 
 # Git Best Practices
 
