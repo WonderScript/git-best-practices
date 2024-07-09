@@ -142,8 +142,6 @@ There are two ways to apply changes:
     - Decide whether to squash commits when the merge request is accepted, especially if changes belong to a specific
       scope and type.
 
-?
-
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO -)
 
