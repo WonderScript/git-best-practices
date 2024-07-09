@@ -2,7 +2,7 @@
 
 # Git Best Practices
 
-This document aims to provide a standard for writing, versioning, and applying changes in Git.
+This document aims to provide a standard for writing, and applying changes in Git.
 
 The following sections will cover branching, writing proper comments on changes, presenting them correctly with merge
 requests, and proper versioning.
