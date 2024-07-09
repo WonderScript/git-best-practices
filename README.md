@@ -23,7 +23,7 @@ requests, and proper versioning.
 
 ## Branches
 
-![img.png](images/gitflow.png)
+![img.png](images/image-258.webp)
 
 This section provides a summary of Gitflow. For more details:
 
