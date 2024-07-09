@@ -165,8 +165,6 @@ Versions should be in the format major.minor.patch:
 2. Increase *minor* for backward-compatible new features.
 3. Increase *patch* for bug fixes (no new features or changes).
 
-There are two ways to apply changes:
-
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO -)
 
